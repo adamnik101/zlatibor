@@ -2,24 +2,24 @@
 <rss version="2.0">
 	<channel>
 		<item>
-			<title>Nove cene ponuda u hotelu Tornik!</title>
-			<description>Nove cene noćenja u hotelima na Zlatiboru!</description>
-			
+			<title>Zlatibor turizam</title>
+			<description>Pogledajte zašto treba da posetite Zlatibor!</description>
+			<link>https://adamnik101.github.io/zlatibor/index.html</link>			
 		</item>	
 		<item>
-			<title>Nove cene ponuda u hotelu Palisad!</title>
+			<title>Zlatibor hoteli</title>
 			<description>Nove cene noćenja u hotelima na Zlatiboru!</description>
-			
+			<link>https://adamnik101.github.io/zlatibor/smestaj.html</link>
 		</item>
 		<item>
-			<title>Nove cene ponuda u hotelu Olimp!</title>
-			<description>Nove cene noćenja u hotelima na Zlatiboru!</description>
-			
+			<title>Predeli Zlatibora</title>
+			<description>Pogledajte prelepe prizore Zlatibora!</description>
+			<link>https://adamnik101.github.io/zlatibor/slike_predela.html</link>
 		</item>
 		<item>
-			<title>Nove cene ponuda u hotelu Mona!</title>
-			<description>Nove cene noćenja u hotelima na Zlatiboru!</description>
-			
+			<title>Atrakcije Zlatibora</title>
+			<description>Pogledajte atraktivne lokacije Zlatibora!</description>
+			<link>https://adamnik101.github.io/zlatibor/sta_obici.html</link>
 		</item>		
 	</channel>
 </rss>
