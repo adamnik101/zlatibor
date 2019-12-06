@@ -1,0 +1,242 @@
+@font-face{
+	src:url("Lora.ttf");
+	font-family: "Lora";
+}
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-family:'Lora', serif;
+}
+.cleaner{
+	clear:both;
+}
+.active{
+	background-color:#73840F;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+#heder{
+	position:relative;
+	width:100%;
+	background-image:url('../img/zlatibor.jpg');
+	height:600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#heder #logoNav{
+	background-color:rgba(89, 44, 21,0.7);
+	width:15%;
+	height:100%;
+}
+#heder #logoNav img{
+	width:100%;	
+	padding-top:10%;
+}
+#heder nav{
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding-top:50%;
+}
+#heder nav ul{
+	width:100%;
+}
+#heder nav ul li{
+	width:100%;
+}
+#heder nav ul li a{
+	display:block;
+	width:100%;
+	padding:15px;
+	font-size:20px;
+	color:#fff;
+}
+#heder nav ul li a:hover{
+	color:#fff;
+	background-color:#73840F;
+	transition:ease 0.3s;
+}
+#heder h2{
+	text-align:right;
+	position:absolute;
+	right:0px;
+	bottom:10%;
+	padding:20px 25px;
+	background-color:#73840F;
+	font-style:italic;
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+	color:#fff;
+}
+#okvirSredine{
+	text-align:left;
+	background-color:#F0F8F9;
+	padding-top:5%;
+	padding-bottom:5%;
+}
+#okvirSredine header h1{
+	color:#000;
+	width:80%;
+	padding:20px;
+	margin-left:10%;
+	margin-bottom:30px;
+	background-color:#73840F;
+	border-radius:30px;
+}
+#okvirSredine #sredina{
+	width:80%;
+	margin:0px auto;
+	padding-bottom:30px;
+}
+#okvirSredine #sredina .content{
+	margin-top:30px;
+}
+#okvirSredine #sredina .content .naslov{
+	margin-bottom:15px;
+}
+#okvirSredine #sredina .content p{
+	text-indent:30px;
+}
+.linija{
+	width:80%;
+	border:5px solid #73840F;
+	margin:20px auto;
+	border-radius:5px;
+}
+#okvirSredine #sredina2{
+	width:80%;
+	margin:0px auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+#okvirSredine #sredina2 .sadrzajSlike{
+	width:25%;
+}
+#okvirSredine #sredina2 .sadrzajSlike  h3{
+	margin:10px 0px;
+}
+#okvirSredine #sredina2 .sadrzajSlike  img{
+	width:100%;
+	border-radius:20px;
+}
+#okvirSredine #sredina2 .sadrzajSlike  img:hover{
+	box-shadow:2px 4px 6px gray;
+}
+#okvirSredine #sredina2 .sadrzajSlike  p{
+	text-align:justify;
+}
+#okvirSredine #frametekst{
+	width:80%;
+	margin:0px auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#okvirSredine #frametekst #tekst{
+	text-align:justify;
+	font-size:18px;
+	padding:4%;
+	font-style:italic;
+}
+#okvirSredine #frametekst #tekst:first-letter{
+	font-size:30px;
+	font-weight:bold;
+}
+#okvirSredine #mapa{
+	width:60%;
+	margin:0px auto;
+}
+#okvirSredine #mapa h1{
+	text-align:center;
+	margin:2%;
+}
+#okvirSredine #mapa #mapica{
+	width:100%;
+	height:400px;
+}
+#futer{
+	width:100%;
+	height:200px;
+	background-color:#606941;
+	padding:2% 2%;
+}
+#futer #futerSection{
+	width:80%;
+	margin:0px auto;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+#futer #futerSection .futerInfo{
+	padding:20px 40px;
+	width:33%;
+	text-align:center;
+}
+#futer #futerSection .futerInfo h4{
+	font-size:20px;
+	margin-bottom:5%;
+}
+#futer #futerSection .futerInfo ul li a{
+	color:#000;
+}
+#futer #futerSection .futerInfo #icons{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+#futer #futerSection .futerInfo #icons .fa{
+	width:50px;
+	height:50px;
+	padding:14px;
+	text-align:center;
+	border-radius:50%;
+	border:1px solid #000;
+	font-size:20px;
+}
+.fa-facebook-f{
+	color:#fff;
+	background-color:#4267B2;
+}
+.fa-facebook-f:hover{
+	color:#4267B2;
+	background-color:#fff;
+}
+.fa-twitter{
+	color:#fff;
+	background-color:#1DA1F2;
+}
+.fa-twitter:hover{
+	color:#1DA1F2;
+	background-color:#fff;
+}
+.fa-instagram{
+	color:#fff;
+	background-color:#E1306C;
+}
+.fa-instagram:hover{
+	color:#E1306C;
+	background-color:#fff;
+}
+.futerInfo form input[type=text]{
+	padding:10px 12px;
+	font-size:16px;
+	float:left;
+}
+.futerInfo form button[type=submit]{
+	font-size:16px;
+	padding:10px;
+	margin-right:5px;
+	float:left;
+}
+#copyright{
+	text-align:center;
+}

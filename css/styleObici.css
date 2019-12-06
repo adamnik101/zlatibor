@@ -1,0 +1,221 @@
+@font-face{
+	src:url("Lora.ttf");
+	font-family: "Lora";
+}
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	font-family:'Lora', serif;
+}
+.cleaner{
+	clear:both;
+}
+.active{
+	background-color:#73840F;
+}
+.button{
+	border:none;
+	padding:10px;
+	font-size:30px;
+	height:30%;
+	margin-top:10%;
+}
+.button:hover{
+	cursor:pointer;
+	background-color:#73840F;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+#heder{
+	position:relative;
+	width:100%;
+	background-image:url('../img/tara.jpg');
+	height:600px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#heder #logoNav{
+	background-color:rgba(89, 44, 21,0.7);
+	width:15%;
+	height:100%;
+	float:left;
+}
+#heder #logoNav img{
+	width:100%;	
+	padding-top:10%;
+}
+#heder nav{
+	text-align:center;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding-top:50%;
+}
+#heder nav ul{
+	width:100%;
+}
+#heder nav ul li{
+	width:100%;
+}
+#heder nav ul li a{
+	display:block;
+	width:100%;
+	padding:15px;
+	font-size:20px;
+	color:#fff;
+}
+#heder nav ul li a:hover{
+	color:#fff;
+	background-color:#73840F;
+	transition:ease 0.3s;
+}
+#heder h2{
+	text-align:right;
+	position:absolute;
+	right:0px;
+	bottom:10%;
+	padding:20px 25px;
+	background-color:#73840F;
+	font-style:italic;
+	border-top-left-radius:30px;
+	border-bottom-left-radius:30px;
+	color:#fff;
+}
+main{
+	text-align:left;
+}
+main #atrakcije h1{
+	color:#000;
+	margin-top:30px;
+	margin-left:15%;
+	margin-bottom:30px;
+	padding:7px 5px;
+	width:20%;
+	background-color:#606941;
+	text-align:center;
+	font-size:30px;
+	border-radius:10px;
+}
+main #atrakcije p{
+	width:70%;
+	margin:0px auto;
+	margin-bottom:2%;
+	font-size:18px;
+}
+main #atrakcije p:first-letter{
+	font-size:30px;
+	font-weight:bold;
+}
+main #sredina{
+	width:80%;
+	margin:10px auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+main #sredina .sadrzajSlike{
+	width:40%;
+	margin-bottom:5%;
+}
+main #sredina .sadrzajSlike .naslovSlike{
+	margin-bottom:2%;
+}
+main #sredina .sadrzajSlike .naslovSlike h3 a{
+	color:#000;
+}
+main #sredina .sadrzajSlike article:hover{
+	box-shadow:0 0 15px rgba(33,33,33,.2);
+}
+main #sredina .sadrzajSlike article img{
+	width:100%;
+	padding:5px;
+}
+main #sredina .sadrzajSlike article p{
+	font-style:italic;
+	font-size:18px;
+	padding:15px 20px;
+}
+#futer{
+	width:100%;
+	height:200px;
+	background-color:#606941;
+	padding:2% 2%;
+}
+#futer #futerSection{
+	width:80%;
+	margin:0px auto;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+#futer #futerSection .futerInfo{
+	padding:20px 40px;
+	width:33%;
+	text-align:center;
+}
+#futer #futerSection .futerInfo h4{
+	font-size:20px;
+	margin-bottom:5%;
+}
+#futer #futerSection .futerInfo ul li a{
+	color:#000;
+}
+#futer #futerSection .futerInfo #icons{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+}
+#futer #futerSection .futerInfo #icons .fa{
+	width:50px;
+	height:50px;
+	padding:14px;
+	text-align:center;
+	border-radius:50%;
+	border:1px solid #000;
+	font-size:20px;
+}
+.fa-facebook-f{
+	color:#fff;
+	background-color:#4267B2;
+}
+.fa-facebook-f:hover{
+	color:#4267B2;
+	background-color:#fff;
+}
+.fa-twitter{
+	color:#fff;
+	background-color:#1DA1F2;
+}
+.fa-twitter:hover{
+	color:#1DA1F2;
+	background-color:#fff;
+}
+.fa-instagram{
+	color:#fff;
+	background-color:#E1306C;
+}
+.fa-instagram:hover{
+	color:#E1306C;
+	background-color:#fff;
+}
+.futerInfo form input[type=text]{
+	padding:10px 12px;
+	font-size:16px;
+	float:left;
+}
+.futerInfo form button[type=submit]{
+	font-size:16px;
+	padding:10px;
+	margin-right:5px;
+	float:left;
+}
+#copyright{
+	text-align:center;
+}
