@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc></loc>
-		<lastmod></lastmod>
+		<loc>https://adamnik101.github.io/zlatibor/index.html</loc>
+		<lastmod>2019-12-06</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>1</priority>
+	</url>
+	<url>
+		<loc>https://adamnik101.github.io/zlatibor/sta_obici.html</loc>
+		<lastmod>2019-12-06</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc></loc>
-		<lastmod></lastmod>
-		<changefreq>monthly</changefreq>
+		<loc>https://adamnik101.github.io/zlatibor/smestaj.html</loc>
+		<lastmod>2019-12-06</lastmod>
+		<changefreq>weekly</changefreq>
 		<priority>0.8</priority>
 	</url>
 	<url>
-		<loc></loc>
-		<lastmod></lastmod>
+		<loc>https://adamnik101.github.io/zlatibor/slike_predela.html</loc>
+		<lastmod>2019-12-06</lastmod>
 		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
+		<priority>0.6</priority>
 	</url>
 	<url>
-		<loc></loc>
-		<lastmod></lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.8</priority>
+		<loc>https://adamnik101.github.io/zlatibor/autor.html</loc>
+		<lastmod>2019-12-06</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.2</priority>
 	</url>
 </urlset > 
